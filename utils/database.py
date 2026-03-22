@@ -1,7 +1,4 @@
-from flask import Blueprint, render_template, request, redirect, url_for, abort
 from CTFd.models import db
-from CTFd.utils.decorators import admins_only
-from CTFd.plugins import register_user_page_menu_bar, register_admin_plugin_menu_bar
 
 
 class Credits(db.Model):
