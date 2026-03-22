@@ -21,7 +21,7 @@ def load(app):
 
   @credits_bp.route("/admin/credits", methods=["GET", "POST"])
   @admins_only
-  def admin_credits():
+  def admin_credits_dashboard():
     if request.method == "POST":
       action = request.form.get("action")
       
