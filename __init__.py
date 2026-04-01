@@ -53,4 +53,4 @@ def load(app):
   register_admin_plugin_menu_bar("credits", "/admin/credits")
   
   # register the page in the user menu bar
-  register_user_page_menu_bar("credits", "/credits")
+  register_user_page_menu_bar("Credits", "/credits")
